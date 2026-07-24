@@ -32,6 +32,22 @@ It accepts a resume and/or self-description plus a target job description, then 
 
 ---
 
+## 📸 Screenshots
+
+### Home — Create Interview Plan
+![Home Dashboard](screenshots/01_home_dashboard.png)
+
+### Technical Questions (with Intention & Model Answer)
+![Technical Questions](screenshots/03_technical_questions.png)
+
+### Behavioral Questions
+![Behavioral Questions](screenshots/04_behavioral_questions.png)
+
+### Preparation Road Map — Day-wise Timeline
+![Preparation Roadmap](screenshots/02_preparation_roadmap.png)
+
+---
+
 ## 🏗️ System Architecture
 
 ```text
