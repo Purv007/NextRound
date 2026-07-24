@@ -64,6 +64,33 @@ $severity-low: #3fb950;
 
 
 
+    &__home-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        background: none;
+        border: 1px solid $border-color;
+        border-radius: 0.5rem;
+        color: $text-muted;
+        font-family: $font-stack;
+        font-size: 0.82rem;
+        font-weight: 500;
+        padding: 0.5rem 0.75rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+
+        &:hover {
+            background-color: rgba($accent, 0.08);
+            color: $accent;
+            border-color: rgba($accent, 0.3);
+
+            svg {
+                stroke: $accent;
+            }
+        }
+    }
+
     &__label {
         font-size: 0.7rem;
         font-weight: 600;

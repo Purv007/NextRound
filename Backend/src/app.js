@@ -1,3 +1,6 @@
+//initiate server
+//use the middleware,api routes created
+
 const express = require("express");
 const cookieParser = require("cookie-parser")
 const cors = require("cors")
